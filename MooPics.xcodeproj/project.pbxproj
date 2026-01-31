@@ -8,6 +8,8 @@
 
 /* Begin PBXFileReference section */
 		7CAFAE732F2D8AF8005F10F5 /* MooPics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MooPics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAFAEAD2F2DC4A3005F10F5 /* location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = location.gpx; sourceTree = "<group>"; };
+		7CAFAEAE2F2DC4D0005F10F5 /* location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = location.gpx; path = location/location.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,9 +34,19 @@
 		7CAFAE302F2CE214005F10F5 = {
 			isa = PBXGroup;
 			children = (
+				7CAFAEAE2F2DC4D0005F10F5 /* location.gpx */,
 				7CAFAE3B2F2CE214005F10F5 /* MooPics */,
 				7CAFAE732F2D8AF8005F10F5 /* MooPics.app */,
+				7CAFAEAC2F2DC49A005F10F5 /* location */,
 			);
+			sourceTree = "<group>";
+		};
+		7CAFAEAC2F2DC49A005F10F5 /* location */ = {
+			isa = PBXGroup;
+			children = (
+				7CAFAEAD2F2DC4A3005F10F5 /* location.gpx */,
+			);
+			path = location;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

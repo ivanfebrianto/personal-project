@@ -36,13 +36,15 @@ struct HomeView: View {
                         ProgressView()
                             .frame(height: 300)
                     }
-                    
                     // Buttons & Content
                     VStack(spacing:16){
-                        HStack(spacing: 10){
-                            HomeButton(titleKey:"playButton_title") {}
-                            HomeButton(titleKey:"download_title") {}
+                        HStack(spacing: 10) {
+                            HomeButton(titleKey: "playButton_title",iconName: "play.fill") {
+                            }
+                            HomeButton(titleKey: "download_title", iconName: "arrow.down.circle.fill") {
+                            }
                         }
+
                         ContentRow(titleKey: "top10_movies_title")
                         ContentRow(titleKey: "top10_tv_title")
                         ContentRow(titleKey: "new_release_title")
