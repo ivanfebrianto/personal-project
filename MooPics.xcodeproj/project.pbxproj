@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		7CAFAE392F2CE214005F10F5 /* MooPics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MooPics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAFAE732F2D8AF8005F10F5 /* MooPics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MooPics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +33,8 @@
 			isa = PBXGroup;
 			children = (
 				7CAFAE3B2F2CE214005F10F5 /* MooPics */,
-				7CAFAE3A2F2CE214005F10F5 /* Products */,
+				7CAFAE732F2D8AF8005F10F5 /* MooPics.app */,
 			);
-			sourceTree = "<group>";
-		};
-		7CAFAE3A2F2CE214005F10F5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7CAFAE392F2CE214005F10F5 /* MooPics.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -67,7 +59,7 @@
 			packageProductDependencies = (
 			);
 			productName = MooPics;
-			productReference = 7CAFAE392F2CE214005F10F5 /* MooPics.app */;
+			productReference = 7CAFAE732F2D8AF8005F10F5 /* MooPics.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,11 +83,12 @@
 			knownRegions = (
 				en,
 				Base,
+				id,
 			);
 			mainGroup = 7CAFAE302F2CE214005F10F5;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 7CAFAE3A2F2CE214005F10F5 /* Products */;
+			productRefGroup = 7CAFAE302F2CE214005F10F5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -185,6 +178,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -242,6 +236,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

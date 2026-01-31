@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomeButtonView: View {
+struct HomeButton: View {
     let titleKey: LocalizedStringKey
     let action: () -> Void
     

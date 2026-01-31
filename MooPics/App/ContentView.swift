@@ -11,28 +11,28 @@ struct ContentView: View {
         TabView {
             HomeView()
                 .tabItem {
-                    Image(systemName: "house")
-                    Text("Home")
+                    Image(systemName: Constants.homeIconString)
+                    Text("home_title")
                 }
             UpcomingView()
                 .tabItem {
-                    Image(systemName: "clock")
-                    Text("Upcoming")
+                    Image(systemName: Constants.upcomingIconString)
+                    Text("upcoming_title")
                 }
             SearchMovieView()
                 .tabItem {
-                    Image(systemName: "magnifyingglass")
-                    Text("Search")
+                    Image(systemName: Constants.searchMovieIconString)
+                    Text("searchMovie_title")
                 }
             DownloadView()
                 .tabItem {
-                    Image(systemName: "arrow.down.circle")
-                    Text("Download")
+                    Image(systemName: Constants.downloadIconString)
+                    Text("download_title")
                 }
         }
     }
 }
-
+ 
 
 #Preview {
     ContentView()
